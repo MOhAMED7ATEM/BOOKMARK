@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOOK MARK</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="  dom   w-25 mx-auto  text-center h-100" >
+
+        <h1 class="   mx-auto mt-4  position-relative       ">Bookmarker</h1>
+
+
+    </div>
+    <div class="body-book mt-5 w-75 mx-auto ">
+      <div class="caption d-flex justify-content-center align-items-center mt-5 h-100 gap-2">
+        <span><i class="fa-regular fa-bookmark op"></i></span>
+        <span class="op">Bookmark your favorite sites </span>
+        <span><i class="fa-regular fa-bookmark op"></i></span>
+
+
+      </div>
+      <div class="form mt-3   ">
+        <span><i class="fa-brands fa-webflow"></i></span>
+        <span>site name</span>
+        <div class="form-floating mb-3">
+          <input oninput="vaildname()" type="text" class="form-control" id="bookInput" placeholder="">
+          <label for="bookInput">Book Marker</label>
+        </div>
+        <span><i class="fa-solid fa-link"></i></span>
+        <span>Site Url</span>
+        <div class="form-floating mb-3">
+          <input oninput="vaildurrl()" type="text" class="form-control" id="url" placeholder="">
+           <label  for="url">Website Url</label>
+        </div>
+
+       <div class="text-center ">
+        <button onclick="addbook()" class="btn btn-danger    text-center">submit</button>
+       </div>
+      </div>
+    <div class="bod mt-4">
+
+        <table class="table mt-5">
+          <thead>
+            <tr>
+              <th>id</th>
+            <th>Website Name</th>
+            <th>Visit</th>
+            <th>delete</th>
+            </tr>
+          </thead> 
+          <tbody id="date">
+
+          </tbody>
+               </table>
+
+    </div>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/index.js"></script>
+</body>
+</html>

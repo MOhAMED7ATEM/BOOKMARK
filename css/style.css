@@ -1,0 +1,32 @@
+body{
+    background-color: blanchedalmond;
+
+}
+.dom  h1 {
+    font-family: "Pacifico", cursive;
+    background-color: blanchedalmond;
+    transition: all 3s 1s ease-out;
+
+}
+.dom h1::after{
+    content: '';
+    width: 320px;height: 50px;
+    background-color: rgba(255, 221, 0, 0.453);
+    position: absolute;
+ top: 20px;
+    left: 0;
+    z-index: -1;
+}
+.dom:hover h1 {
+    z-index: -2;
+}
+.body-book{
+    border-top:dotted 3px black   ;
+}
+.op{
+    background-color: rgba(168, 255, 47, 0.625);
+    font-size: x-large;
+}
+.bod{
+    border-top: dotted 2px black;
+}
